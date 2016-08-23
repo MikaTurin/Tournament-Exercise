@@ -1,0 +1,21 @@
+{
+  "name": "exercise/tournament",
+  "description": "Tournament test exercise",
+  "license": "proprietary",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+
+  "repositories": [ ],
+
+  "require": { },
+
+  "require-dev": {
+    "phpunit/phpunit": "~5.5"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "Tournament\\": ["app/src", "test/src"]
+    }
+  }
+}

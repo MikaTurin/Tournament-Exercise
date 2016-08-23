@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phpunit
+  backupGlobals="false"
+  backupStaticAttributes="false"
+  colors="true"
+  convertErrorsToExceptions="true"
+  convertNoticesToExceptions="true"
+  convertWarningsToExceptions="true"
+  processIsolation="false"
+  stopOnFailure="false"
+  syntaxCheck="true"
+  bootstrap="test/bootstrap.php"
+>
+
+    <testsuites>
+        <testsuite name="Main Suite">
+            <directory suffix="Test.php">test/src</directory>
+        </testsuite>
+    </testsuites>
+
+</phpunit>
